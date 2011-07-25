@@ -1,5 +1,10 @@
 iCal feed for PagerDuty schedules
 
+Requirements
+------------
+- Python >= 2.6 & < 3.0
+- bottle (http://pypi.python.org/pypi/bottle)
+
 Usage
 -----
 cp example_config.py config.py
