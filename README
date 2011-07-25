@@ -1,0 +1,12 @@
+iCal feed for PagerDuty schedules
+
+Usage
+-----
+cp example_config.py config.py
+Edit config.py and fill in your username/password/whatever
+Run python server.py, I recommend running it under supervisord or the watchdog
+daemon of your choice.
+
+Subscribe to http://localhost:9993/calendar/operations.ics in iCal or whatever
+calendar client you prefer. "operations" in this URL corresponds to the key in
+the SCHEDULES dict in config.py. You may have as many schedules as you like.
