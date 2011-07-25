@@ -1,4 +1,4 @@
-#!/home/synack/src/pagercal/env/bin/python
+#!/usr/bin/env python
 import urllib2
 import hashlib
 import json
