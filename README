@@ -4,6 +4,7 @@ Requirements
 ------------
 - Python >= 2.6 & < 3.0
 - bottle (http://pypi.python.org/pypi/bottle)
+- dateutil < 2.0 (http://labix.org/python-dateutil)
 
 Usage
 -----
