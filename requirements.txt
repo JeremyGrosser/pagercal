@@ -1,2 +1,2 @@
 bottle
-dateutil
+https://github.com/downloads/synack/pagercal/python-dateutil-1.5.tar.gz
