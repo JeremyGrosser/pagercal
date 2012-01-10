@@ -4,6 +4,8 @@ import hashlib
 import json
 import time
 
+import dateutil.parser
+
 import bottle
 
 from config import *
@@ -30,7 +32,7 @@ def unixtime_to_iso8601(ts):
     return time.strftime('%Y-%m-%dT%H:%MZ', time.gmtime(ts))
     
 def iso8601_to_unixtime(ts):
-    return time.strptime(ts, '%Y-%m-%dT%H:%M:%SZ')
+    return dateutil.parser.parse(ts).timetuple()
 
 def unixtime_to_vcal(ts):
     return time.strftime('%Y%m%d', ts)
